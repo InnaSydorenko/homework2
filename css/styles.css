@@ -25,13 +25,18 @@ body {
   color: #212121;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0, 02em;
 
-  color: #2196f3;
+  color: #757575;
 }
 
 .header-tel {
