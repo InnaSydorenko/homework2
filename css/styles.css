@@ -5,8 +5,14 @@
   --accent-color: #2196f3;
 }
 
-body {
+.header-logo body {
   font-family: "Roboto", sans-serif;
+}
+.header-logo {
+  color: #000000;
+}
+.header-logo-link {
+  color: var(--accent-color);
 }
 
 .list {
@@ -47,21 +53,44 @@ body {
 
   color: #757575;
 }
-
-.section-button {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1, 87;
-  letter-spacing: 0, 06em;
-  text-align: center;
-  color: #ffffff;
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+.header-mail {
+  text-decoration: none;
 }
 
-.btn {
-  font-weight: 500;
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  text-decoration: none;
+}
+
+.header-right-item {
+  list-style: none;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  font-family: Roboto;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1, 6;
-  letter-spacing: 0, 03em;
+  line-height: 1, 9;
+  letter-spacing: 0, 06em;
   text-align: center;
-  color: #212121;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.button:focus,
+.button:hover {
+  color: #92c7f1;
 }
