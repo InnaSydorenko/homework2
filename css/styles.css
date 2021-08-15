@@ -1,0 +1,62 @@
+:root {
+  --main-title-color: #b1a7a7;
+  --secondary-title-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0, 02em;
+  color: #212121;
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0, 02em;
+
+  color: #2196f3;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0, 02em;
+
+  color: #757575;
+}
+
+.section-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0, 06em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 6;
+  letter-spacing: 0, 03em;
+  text-align: center;
+  color: #212121;
+}
