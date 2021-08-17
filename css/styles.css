@@ -4,7 +4,9 @@
   --accent-color: #2196f3;
   --main-text: #757575;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+}
 /*-------------Header----------*/
 
 .header-logo {
@@ -211,6 +213,16 @@
   letter-spacing: 0, 03em;
 
   color: #ffffff;
+}
+.footer-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7;
+  letter-spacing: 0,03em;
+
+  color: #ffffff;
+
 }
 /*-------Portfolio main-----------*/
 .button-nav {
